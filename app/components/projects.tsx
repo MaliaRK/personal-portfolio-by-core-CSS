@@ -40,15 +40,42 @@ const Projects = () => {
         <div className='grid grid-cols-[50%_auto]'>
           <Image src='/image.webp' alt='about-image' width={250} height={5}></Image>
           <div className='m-8'>
-            <h3 className='text-gray-300 my-4 text-xl'>Node.js Projects:</h3>
-            <h4 className='text-gray-400'>(Command Line Interface)</h4>
-            <p className='my-4'>These are some of the command-line applications I've built to demonstrate my ability to develop interactive, logic-driven systems entirely through the terminal, Strengthen Backend Development Skills,
-            Master Asynchronous Operations and Improve Problem-Solving.</p>
+            <h3 className='text-gray-300 my-4 text-xl'>Next.js Projects:</h3>
+            <h4 className='text-gray-400'>(Countdown Timer App)</h4>
+            <p className='my-4'>This project is a dynamic countdown timer built using Next.js and React Hooks. It features a clean, user-friendly interface where users can set a target date and time, and the app will display the remaining time in days, hours, minutes, and seconds. Key highlights include.</p>
             <div className='flex mt-2'>
-                <TagBtn text='# node.js'/>
-                <TagBtn text='# chalk'/>
-                <TagBtn text='# inquirer'/>
-                <TagBtn text='# cli'/>
+                <TagBtn text='# customizable Time Input:'/>
+                <TagBtn text='# real-Time Updates'/>
+                <TagBtn text='# responsive Design'/>
+                <TagBtn text='# dynamic Rendering'/>
+            </div>
+          </div>
+        </div>
+        <div className='grid grid-cols-[50%_auto]'>
+          <div className='m-8'>
+            <h3 className='text-sky-300 my-4 text-xl'>Next.js & Tailwind:</h3>
+            <h4 className='text-gray-400'>(Single-Page Static E-Commerce Website)</h4>
+            <p className='my-4'>This single-page static e-commerce website was built using Next.js to showcase my ability to develop high-performance, SEO-friendly front-end applications. Designed as a practice project, the site features a modern, user-friendly interface with a focus on speed and responsiveness.</p>
+            <div className='flex mt-2x'>
+              <TagBtn text='# static Site Generation'/>
+              <TagBtn text='# tailwind'/>
+              <TagBtn text='# single-Page Architecture' />
+              <TagBtn text='# responsive design'/>
+            </div>
+          </div>
+          <Image src='/image.webp' alt='about-image' width={250} height={5}></Image>
+        </div>
+        <div className='grid grid-cols-[50%_auto]'>
+          <Image src='/image.webp' alt='about-image' width={250} height={5}></Image>
+          <div className='m-8'>
+            <h3 className='text-rose-300 my-4 text-xl'>Figma Design:</h3>
+            <h4 className='text-gray-400'>(InnovateTech Digital Solution)</h4>
+            <p className='my-4'>InnovateTech Digital Solution is a static design replica created for practice using Figma. This project involved accurately replicating an existing design concept to hone my skills in visual design, layout, and user interface design principles..</p>
+            <div className='flex mt-2'>
+                <TagBtn text='# design precision'/>
+                <TagBtn text='# responsive layout'/>
+                <TagBtn text='# UI design practice'/>
+                <TagBtn text='# figma'/>
             </div>
           </div>
         </div>
