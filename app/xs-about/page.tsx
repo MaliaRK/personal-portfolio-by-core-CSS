@@ -1,32 +1,28 @@
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
+import React from 'react'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import Image from "next/image"
+import Link from 'next/link'
 
-import React from 'react'
 
-const About = () => {
+const page = () => {
   return (
     <div>
-        <Popover> 
-            <div className='relative group hidden sm:block'>
-                <PopoverTrigger className='bg-gradient-to-r from-blue-600 to-blue-400 text-white rounded py-1 px-4 font-semibold hover:scale-105 group-hover:scale-105 duration-150'>
-                About Me
-                <svg fill="currentColor" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="50" height="24" viewBox="0 0 24 24" id="right-arrow" xmlns="http://www.w3.org/2000/svg" className="icon line bg-re-400 absolute -translate-y-6 translate-x-16 group-hover:translate-x-[70px] group-hover:scale-x-125 duration-150 "><path id="primary" d="M3,12H21m-3,3,3-3L18,9 fill: none; stroke: currentColor; strokeLinecap: round; strokeLinejoin: round; strokeWidth: 1.5;"></path></svg>
-                </PopoverTrigger>
-                <PopoverContent className="ml-[20px] lg:ml-[350px] -mb-[14%] sm:-mb-[9%] lg:-mb-[4%] 2xl:-mb-[2%] ">
-                <div className='text-white flex justify-between'>
-                    <div className="w-[57%] sm:w-[100%] md:w-[60%]">
-                        <h2 className='text-blue-400 my-2'>ABOUT ME</h2>
-                        <p className='my-4'>
-                        "I am a passionate web developer dedicated to crafting dynamic, user-focused websites. I thrive on transforming innovative ideas into compelling digital experiences, employing the latest technologies to deliver outstanding solutions that enhance user engagement and foster business success."</p>
-                        <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># html</button>
-                        <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># css</button>
-                        <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># node.js</button>
-                        <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># typescript</button>
-                        <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># next.js</button>
-                        <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># tailwind css</button>
-                        <h2 className='text-blue-400 my-6 underline-offset-1'>FRONT-END DEVELOPER</h2>
-                        <div className='flex space-x-8 sm:space-x-16'>
+        <div className="text-white mx-2">
+            <div className='flex justify-between'>
+                <h2 className='text-blue-400 my-2'>ABOUT ME</h2>
+                <Link href="/"><button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'>Home</button></Link>
+            </div>
+            <p className='my-4 text-sm'>
+            "I am a passionate web developer dedicated to crafting dynamic, user-focused websites. I thrive on transforming innovative ideas into compelling digital experiences, employing the latest technologies to deliver outstanding solutions that enhance user engagement and foster business success."</p>
+            <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># html</button>
+            <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># css</button>
+            <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># node.js</button>
+            <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># typescript</button>
+            <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># next.js</button>
+            <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># tailwind css</button>
+            <h2 className='text-blue-400 my-6 underline-offset-1'>FRONT-END DEVELOPER</h2>
+            <Image src='/image.webp' alt='about-image' width={250} height={5}></Image>
+            <div className='flex space-x-6 my-4'>
                             <TooltipProvider>
                             <Tooltip>
                                 <TooltipTrigger>
@@ -71,14 +67,11 @@ const About = () => {
                             </Tooltip>
                             </TooltipProvider>                       
                         </div>
-                    </div>
-                    <Image src='/image.webp' alt='about-image' width={350} height={5} className='w-[50px] md:w-[250px] lg:w-[350px] h-[50px] md:h-[350px] hidden md:block '></Image>
-                </div>
-                </PopoverContent>
-            </div>
-        </Popover>
+                        
+
+        </div>
     </div>
   )
 }
 
-export default About
+export default page
