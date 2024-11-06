@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Home = () => {
   return (
-    <div className='bg-[#111]'>
+    <div className='m-4'>
       <Header/>
     </div>
   )

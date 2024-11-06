@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import { Interface } from 'readline'
 
 interface Iprops {
     text: string;
@@ -18,3 +17,15 @@ const Button = (props: Iprops) => {
 }
 
 export default Button
+
+
+
+export const TagBtn = (props: Iprops) => {
+  return (
+    <div>
+      <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'>
+      {props.text}
+      </button>
+    </div>
+  )
+} 

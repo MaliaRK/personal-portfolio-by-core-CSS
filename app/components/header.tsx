@@ -4,12 +4,13 @@ import Button from './button'
 import Home from './script'
 import About from './about'
 import Link from 'next/link'
+import Projects from './projects'
 
 
 const Header = () => {
   return (
     <div>
-     <section className='flex flex-col justify-between h-screen max-w-[1600px] mx-auto px-5'>
+     <section className='bg-[#111] flex flex-col justify-between h-screen max-w-[1600px] mx-auto px-5 border border-gray-400'>
         <header className='text-white flex justify-between mx-4 mt-4 items-center'>
             <Image src="/m.png" alt="logo" width={60} height={3}></Image>
             <div className='flex gap-8'>
@@ -73,16 +74,7 @@ const Header = () => {
           <div className='after:content-[""] bg-white w-1 h-6 absolute translate-x-[63px] translate-y-8'></div>
         </div>
       </section>
-      <section>
-        <h2>Latest Works</h2>
-        <div>
-          image
-          <div>
-            <h3>Node Projects</h3>
-            <p>CLI based</p>
-          </div>
-        </div>
-      </section>
+      <Projects/>
     </div>
   )
 }
