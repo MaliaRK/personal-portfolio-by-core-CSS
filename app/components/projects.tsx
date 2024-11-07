@@ -6,10 +6,10 @@ import { TagBtn } from './button'
 const Projects = () => {
   return (
     <div>
-      <section className='bg-[#111] h-full text-white'>
+      <section className='bg-[#111] h-full text-white max-w-[1600px] mx-auto'>
         <h2 className='text-center underline text-2xl font-semibold pt-10'>Latest Works</h2>
         <div className='grid grid-cols-[50%_auto]'>
-          <Image src='/image.webp' alt='about-image' width={250} height={5}></Image>
+          <Image src='/cli.jpg' alt='about-image' width={250} height={5}></Image>
           <div className='m-8'>
             <h3 className='text-green-400 my-4 text-xl'>Node.js Projects:</h3>
             <h4 className='text-gray-400'>(Command Line Interface)</h4>
@@ -35,10 +35,10 @@ const Projects = () => {
               <TagBtn text='# responsive design'/>
             </div>
           </div>
-          <Image src='/image.webp' alt='about-image' width={250} height={5}></Image>
+          <Image src='/resume.png' alt='about-image' width={250} height={5}></Image>
         </div>
         <div className='grid grid-cols-[50%_auto]'>
-          <Image src='/image.webp' alt='about-image' width={250} height={5}></Image>
+          <Image src='/countdown.png' alt='about-image' width={250} height={5}></Image>
           <div className='m-8'>
             <h3 className='text-gray-300 my-4 text-xl'>Next.js Projects:</h3>
             <h4 className='text-gray-400'>(Countdown Timer App)</h4>
@@ -63,12 +63,12 @@ const Projects = () => {
               <TagBtn text='# responsive design'/>
             </div>
           </div>
-          <Image src='/image.webp' alt='about-image' width={250} height={5}></Image>
+          <Image src='/eCommerce.png' alt='about-image' width={250} height={5}></Image>
         </div>
         <div className='grid grid-cols-[50%_auto]'>
-          <Image src='/image.webp' alt='about-image' width={250} height={5}></Image>
+          <Image src='/figma.png' alt='about-image' width={250} height={5}></Image>
           <div className='m-8'>
-            <h3 className='text-rose-300 my-4 text-xl'>Figma Design:</h3>
+            <h3 className='text-violet-500 my-4 text-xl'>Figma Design:</h3>
             <h4 className='text-gray-400'>(InnovateTech Digital Solution)</h4>
             <p className='my-4'>InnovateTech Digital Solution is a static design replica created for practice using Figma. This project involved accurately replicating an existing design concept to hone my skills in visual design, layout, and user interface design principles..</p>
             <div className='flex mt-2'>
