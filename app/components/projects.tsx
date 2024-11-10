@@ -13,7 +13,7 @@ const Projects = () => {
           <div className='m-8'>
             <h3 className='text-green-400 my-4 text-xl'>Node.js Projects:</h3>
             <h4 className='text-gray-400'>(Command Line Interface)</h4>
-            <p className='my-4'>These are some of the command-line applications I've built to demonstrate my ability to develop interactive, logic-driven systems entirely through the terminal, Strengthen Backend Development Skills,
+            <p className='my-4'>These are some of the command-line applications I have built to demonstrate my ability to develop interactive, logic-driven systems entirely through the terminal, Strengthen Backend Development Skills,
             Master Asynchronous Operations and Improve Problem-Solving.</p>
             <div className='flex mt-2'>
                 <TagBtn text='# node.js'/>
