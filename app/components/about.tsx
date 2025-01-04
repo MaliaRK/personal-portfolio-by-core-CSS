@@ -14,12 +14,12 @@ const About = () => {
                 <svg fill="currentColor" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="50" height="24" viewBox="0 0 24 24" id="right-arrow" xmlns="http://www.w3.org/2000/svg" className="icon line bg-re-400 absolute -translate-y-6 translate-x-16 group-hover:translate-x-[70px] group-hover:scale-x-125 duration-150 "><path id="primary" d="M3,12H21m-3,3,3-3L18,9 fill: none; stroke: currentColor; strokeLinecap: round; strokeLinejoin: round; strokeWidth: 1.5;"></path></svg>
                 </PopoverTrigger>
                 {/* <PopoverContent className="ml-[20px] lg:ml-[350px] -mb-[14%] sm:-mb-[9%] lg:-mb-[4%] 2xl:-mb-[2%] "> */}
-                <PopoverContent className="ml-[20px] lg:ml-[350px] -mb-[14%] sm:-mb-[9%] lg:-mb-[4%] 2xl:-mb-[2%]">
+                <PopoverContent className=" -mb-[8%] md:ml-[3%]">
                 <div className='text-white flex justify-between'>
                     <div className="w-[57%] sm:w-[100%] md:w-[60%]">
                         <h2 className='text-blue-400 my-2'>ABOUT ME</h2>
                         <p className='my-4'>
-                        'I am a passionate web developer dedicated to crafting dynamic, user-focused websites. I thrive on transforming innovative ideas into compelling digital experiences, employing the latest technologies to deliver outstanding solutions that enhance user engagement and foster business success.'</p>
+                        &quot;I am a passionate web developer dedicated to crafting dynamic, user-focused websites. I thrive on transforming innovative ideas into compelling digital experiences, employing the latest technologies to deliver outstanding solutions that enhance user engagement and foster business success.&quot;</p>
                         <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># html</button>
                         <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># css</button>
                         <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># node.js</button>

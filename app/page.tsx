@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Home = () => {
   return (
-    <div className='m-4'>
+    <div className='max-w-[1600px] mx-auto'>
       <Header/>
     </div>
   )

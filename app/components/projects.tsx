@@ -6,11 +6,14 @@ import { TagBtn } from './button'
 const Projects = () => {
   return (
     <div>
-      <section className='bg-[#111] h-full text-white max-w-[1600px] mx-auto'>
+      <section className='bg-[#111] text-white'>
         <h2 className='text-center underline text-2xl font-semibold pt-10'>Latest Works</h2>
-        <div className='grid grid-cols-[50%_auto]'>
-          <Image src='/cli.jpg' alt='about-image' width={250} height={5}></Image>
-          <div className='m-8'>
+        <div className='grid grid-cols-1 md:grid-cols-[50%_auto]'>
+          <div className='relative order-2 '>
+            <Image src='/computer.png' alt='computer' width={250} height={5} className='mx-auto md:my-[6%]'></Image>
+            <Image src='/cli.jpg' alt='about-image' width={230} height={5} className='absolute left-[31%] md:left-[18%] lg:left-[26%] xl:left-[31%] 2xl:left-[34%] bottom-[40%] md:bottom-[57%] lg:bottom-[47%] xl:bottom-[41%] '></Image>
+          </div>
+          <div className='m-8 md:order-2'>
             <h3 className='text-green-400 my-4 text-xl'>Node.js Projects:</h3>
             <h4 className='text-gray-400'>(Command Line Interface)</h4>
             <p className='my-4'>These are some of the command-line applications I have built to demonstrate my ability to develop interactive, logic-driven systems entirely through the terminal, Strengthen Backend Development Skills,
@@ -23,7 +26,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className='grid grid-cols-[50%_auto]'>
+        <div className='grid grid-cols-1 md:grid-cols-[50%_auto]'>
           <div className='m-8'>
             <h3 className='text-blue-400 my-4 text-xl'>TypeScript Projects:</h3>
             <h4 className='text-gray-400'>(Interactive and Editable Resume Website)</h4>
@@ -35,9 +38,12 @@ const Projects = () => {
               <TagBtn text='# responsive design'/>
             </div>
           </div>
-          <Image src='/resume.png' alt='about-image' width={250} height={5}></Image>
+          <div className='relative order-2 '>
+            <Image src='/computer.png' alt='computer' width={250} height={5} className='mx-auto md:my-[6%]'></Image>
+            <Image src='/resume.png' alt='about-image' width={230} height={5} className='absolute left-[32%] md:left-[18%] lg:left-[26%] xl:left-[31%] 2xl:left-[34%] bottom-[36%] md:bottom-[63%] lg:bottom-[47%] xl:bottom-[41%]'></Image>
+          </div>
         </div>
-        <div className='grid grid-cols-[50%_auto]'>
+        {/* <div className='grid grid-cols-[50%_auto]'>
           <Image src='/countdown.png' alt='about-image' width={250} height={5}></Image>
           <div className='m-8'>
             <h3 className='text-gray-300 my-4 text-xl'>Next.js Projects:</h3>
@@ -78,7 +84,7 @@ const Projects = () => {
                 <TagBtn text='# figma'/>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   )
