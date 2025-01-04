@@ -8,12 +8,13 @@ const About = () => {
   return (
     <div>
         <Popover> 
-            <div className='relative group hidden sm:block'>
+            <div className='relativ group hidden sm:block'>
                 <PopoverTrigger className='bg-gradient-to-r from-blue-600 to-blue-400 text-white rounded py-1 px-4 font-semibold hover:scale-105 group-hover:scale-105 duration-150'>
                 About Me
                 <svg fill="currentColor" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="50" height="24" viewBox="0 0 24 24" id="right-arrow" xmlns="http://www.w3.org/2000/svg" className="icon line bg-re-400 absolute -translate-y-6 translate-x-16 group-hover:translate-x-[70px] group-hover:scale-x-125 duration-150 "><path id="primary" d="M3,12H21m-3,3,3-3L18,9 fill: none; stroke: currentColor; strokeLinecap: round; strokeLinejoin: round; strokeWidth: 1.5;"></path></svg>
                 </PopoverTrigger>
-                <PopoverContent className="ml-[20px] lg:ml-[350px] -mb-[14%] sm:-mb-[9%] lg:-mb-[4%] 2xl:-mb-[2%] ">
+                {/* <PopoverContent className="ml-[20px] lg:ml-[350px] -mb-[14%] sm:-mb-[9%] lg:-mb-[4%] 2xl:-mb-[2%] "> */}
+                <PopoverContent className="ml-[20px] lg:ml-[350px] -mb-[14%] sm:-mb-[9%] lg:-mb-[4%] 2xl:-mb-[2%]">
                 <div className='text-white flex justify-between'>
                     <div className="w-[57%] sm:w-[100%] md:w-[60%]">
                         <h2 className='text-blue-400 my-2'>ABOUT ME</h2>
