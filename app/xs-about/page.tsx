@@ -13,7 +13,7 @@ const page = () => {
                     <Link href="/"><button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'>Home</button></Link>
                 </div>
                 <p className='my-4 text-sm'>
-                    'I am a passionate web developer dedicated to crafting dynamic, user-focused websites. I thrive on transforming innovative ideas into compelling digital experiences, employing the latest technologies to deliver outstanding solutions that enhance user engagement and foster business success.'</p>
+                    &quot;I am a passionate web developer dedicated to crafting dynamic, user-focused websites. I thrive on transforming innovative ideas into compelling digital experiences, employing the latest technologies to deliver outstanding solutions that enhance user engagement and foster business success.&quot;</p>
                 <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># html</button>
                 <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># css</button>
                 <button className='border border-white rounded-full py-1 px-2 font-thin text-sm m-2'># node.js</button>

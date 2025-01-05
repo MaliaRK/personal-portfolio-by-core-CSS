@@ -5,6 +5,7 @@ import Home from './script'
 import About from './about'
 import Link from 'next/link'
 import Projects from './projects'
+import Contact from './contact'
 
 
 const Header = () => {
@@ -73,6 +74,7 @@ const Header = () => {
         </div>
       </section>
       <Projects/>
+      <Contact/>
     </div>
   )
 }
